@@ -42,13 +42,13 @@ public class TankPlayerController : MonoBehaviour
         if (verticalInput < 0)
         {
             //backwards
-            transform.Rotate(Vector3.forward, -turnSpeed * Time.deltaTime * horizontalInput);
+            transform.Rotate(Vector3.forward, turnSpeed * Time.deltaTime * horizontalInput);
 
         }
         else
         {
             //forwards
-            transform.Rotate(Vector3.forward, turnSpeed * Time.deltaTime * horizontalInput);
+            transform.Rotate(Vector3.forward, -turnSpeed * Time.deltaTime * horizontalInput);
 
         }
     }
