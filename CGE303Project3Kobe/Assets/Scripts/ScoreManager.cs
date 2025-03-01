@@ -45,11 +45,11 @@ public class ScoreManager : MonoBehaviour
         {
             if (won)
             {
-                textBox.text = "You win!/nPress R to try again!";
+                textBox.text = "You win!\nPress R to try again!";
             }
             else
             {
-                textBox.text = "You lose!/nPress R to try again!";
+                textBox.text = "You lose!\nPress R to try again!";
 
             }
 

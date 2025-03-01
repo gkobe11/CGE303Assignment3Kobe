@@ -8,7 +8,7 @@ public class ScoreTriggerZone : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (active && collision.gameObject.tag == "Player")
+        if (active)
         {
             active = false;
             ScoreManager.score++;
